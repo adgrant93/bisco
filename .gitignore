@@ -1,0 +1,4 @@
+#Ignore These Files and Folders#
+
+.vscode/
+__pycache__
