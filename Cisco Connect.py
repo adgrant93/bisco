@@ -7,7 +7,7 @@ if __name__ == "__main__":
     username = input("Username? ")
     myIP = input("Host IP? ")
     password = getpass.getpass("Password? ")
-    myInstance = nxos(username, password, myIP, "cisco_nxos")
+    myInstance = nxos(username, password, myIP, "cisco_xe")
     myInstance.full_backup()
 
     # print (myInstance.username)
